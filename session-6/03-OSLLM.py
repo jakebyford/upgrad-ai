@@ -2,7 +2,7 @@
  # python -m venv venv
 # source venv/Scripts/activate
 # pip install langchain
-# pip install langchain-community langchain-huggingface transformers accelerate
+# pip install langchain langchain_openai langchain-community langchain-huggingface transformers accelerate
 # MAC: export OPENAI_API_KEY=<key>
 # Windows: set OPENAI_API_KEY=<key>
 
