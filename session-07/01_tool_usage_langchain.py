@@ -6,7 +6,7 @@
 # export OPENAI_API_KEY=<key>
 # to see the key: echo $OPENAI_API_KEY
 # export SERPAPI_API_KEY=<key>
-# key = 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
+# key = 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
 
 
 import os
