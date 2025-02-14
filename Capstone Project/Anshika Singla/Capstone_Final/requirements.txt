@@ -1,0 +1,12 @@
+fundus
+py2neo
+streamlit
+transformers
+requests
+google-generativeai
+tensorflow
+ntlk
+langchain_community
+elasticsearch
+numpy
+

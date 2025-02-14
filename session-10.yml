@@ -1,0 +1,30 @@
+- GraphDB
+  - Components
+    - nodes
+    - edges
+    - properties
+    - Cypher Queries
+  
+  - Neo4J
+    - Neo4J Desktop + community edition
+    - pip install neo4j
+    - Nodes
+      { type: "Person", properties: { name: "John Doe", age:30 } }
+      { type: "Person", properties: { name: "Alice Smith", age:28 } }
+      { type: "Company", properties: { name: "Neo4J LLP", industry: "Software" } }
+    - Relations
+      { from: "John Doe", to: "Neo4J LLP", type: "WORKS_AT" }
+      { from: "John Doe", to: "Alice Smith", type: "KNOWS" }
+
+  - Create database with above information using CypherText language
+    CypherCommands:
+      - "CREATE (p:Person { name: 'John Doe', age: 30})"
+      - "CREATE (p:Person { name: 'Alice Smith', age: 28})"      
+      - "CREATE (c:Company { name: 'Neo4J LLP', industry: 'Software'})"
+
+      - "MATCH (p:Person {name: 'John Doe'}), (c:Company {name: 'Neo4J LLP'}) CREATE (p)-[:WORKS_AT]->(c)"
+      - "MATCH (p1:Person {name: 'John Doe'}), (p2:Person {name: 'Alice Smith'}) CREATE (p1)-[:KNOWS]->(p2)"      
+
+      - "MATCH (p:Person)-[:WORKS_AT]->(c:Company) RETURN p.name AS Name, c.name as Company "
+      - "MATCH (p1:Person)-[:KNOWS]->(p2:Person) RETURN p1.name AS Person1, p2.name AS Person2"
+      - "MATCH (n) RETURN n LIMIT 25"

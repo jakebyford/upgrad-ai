@@ -1,0 +1,15 @@
+asyncio
+fastapi
+langchain
+langchain-mistralai
+langchainhub
+neo4j
+mistralai
+numpy
+opentelemetry-api
+pydantic
+uvicorn
+
+[dev]
+black
+flake8

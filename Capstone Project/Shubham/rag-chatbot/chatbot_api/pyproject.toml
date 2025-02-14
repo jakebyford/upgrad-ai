@@ -1,0 +1,20 @@
+[project]
+name = "chatbot_api"
+version = "0.1"
+dependencies = [
+    "asyncio",
+    "fastapi",
+    "langchain",
+    "langchain-ollama",
+    "langchainhub",
+    "neo4j",
+    "ollama",
+    "numpy",
+    "opentelemetry-api",
+    "pydantic",
+    "langchain-community",
+    "uvicorn"
+]
+
+[project.optional-dependencies]
+dev = ["black", "flake8"]

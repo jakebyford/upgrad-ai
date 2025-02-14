@@ -1,0 +1,5 @@
+.env
+files/*
+models/*
+chatapp/*
+src/__pycache__/*
