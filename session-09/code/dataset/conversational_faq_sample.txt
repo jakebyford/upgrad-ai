@@ -1,0 +1,8 @@
+Q: What is AI?
+A: AI, or Artificial Intelligence, refers to the simulation of human intelligence in machines.
+Q: What are some applications of AI?
+A: Applications include natural language processing, computer vision, and robotics.
+Q: What industries benefit from AI?
+A: Industries like healthcare, finance, and education benefit greatly from AI.
+Q: What are ethical concerns in AI?
+A: Ethical concerns include bias, privacy, and decision-making transparency.
